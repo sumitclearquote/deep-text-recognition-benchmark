@@ -4,6 +4,7 @@ import time
 import random
 import string
 import argparse
+import wandb
 
 import torch
 import torch.backends.cudnn as cudnn
@@ -12,14 +13,35 @@ import torch.optim as optim
 import torch.utils.data
 import numpy as np
 
+import albumentations as A #--sumit
+
 from utils import CTCLabelConverter, CTCLabelConverterForBaiduWarpctc, AttnLabelConverter, Averager
 from dataset import hierarchical_dataset, AlignCollate, Batch_Balanced_Dataset
 from model import Model
 from test import validation
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+# Initialize augmentations here--sumit
+albu_transform = A.OneOf(
+                            [
+                                A.GaussNoise(var_limit = (40.0, 50.0), p = 1.0),
+                                A.RandomContrast(limit=[0.5, 0.8], p=1.0),
+                                #A.Emboss(alpha = (0.4,0.8), p = 1.0),
+                                A.Downscale(scale_min = 0.85, scale_max = 0.98, p =1.0)
+                            ],   
+                            p = 0.2
+
+                        )
+
 
 def train(opt):
+    
+    # WANDB initialize --- sumit
+    if opt.log_wandb:
+        wandb.init(project="SSQS-LCD-OCR", name=opt.exp_name)
+        wandb.config.update(opt)
+    
+    
     """ dataset preparation """
     if not opt.data_filtering_off:
         print('Filtering the images containing characters which are not in opt.character')
@@ -28,7 +50,12 @@ def train(opt):
 
     opt.select_data = opt.select_data.split('-')
     opt.batch_ratio = opt.batch_ratio.split('-')
-    train_dataset = Batch_Balanced_Dataset(opt)
+    #train_dataset = Batch_Balanced_Dataset(opt) #commented -- sumit
+    
+    if opt.augment:
+        train_dataset = Batch_Balanced_Dataset(opt, albu_transform=albu_transform)
+    else:
+         train_dataset = Batch_Balanced_Dataset(opt, albu_transform=None)
 
     log = open(f'./saved_models/{opt.exp_name}/log_dataset.txt', 'a')
     AlignCollate_valid = AlignCollate(imgH=opt.imgH, imgW=opt.imgW, keep_ratio_with_pad=opt.PAD)
@@ -81,7 +108,14 @@ def train(opt):
     if opt.saved_model != '':
         print(f'loading pretrained model from {opt.saved_model}')
         if opt.FT:
-            model.load_state_dict(torch.load(opt.saved_model), strict=False)
+            #model.load_state_dict(torch.load(opt.saved_model), strict=False) #--commented-sumit
+            #added ---------sumit
+            checkpoint = torch.load(opt.saved_model)
+            checkpoint = {k: v for k, v in checkpoint.items() if (k in model.state_dict().keys()) and (model.state_dict()[k].shape == checkpoint[k].shape)}
+            for name in model.state_dict().keys() :
+                if name in checkpoint.keys() :
+                    model.state_dict()[name].copy_(checkpoint[name])
+            #added ------------sumit
         else:
             model.load_state_dict(torch.load(opt.saved_model))
     print("Model:")
@@ -181,6 +215,15 @@ def train(opt):
                     valid_loss, current_accuracy, current_norm_ED, preds, confidence_score, labels, infer_time, length_of_data = validation(
                         model, criterion, valid_loader, converter, opt)
                 model.train()
+                
+                #print("IN train loop: ", len(labels), flush = True)
+                # Log wandb here ----sumit
+                if opt.log_wandb:
+                    wandb.log({"Train/Loss": loss_avg.val()})
+                    wandb.log({"Val/Accuracy": current_accuracy, 'Val/Loss': valid_loss})
+                    wandb.log({"Learning_Rate": optimizer.param_groups[0]["lr"]})
+                # Log wandb here ----sumit
+                
 
                 # training loss and validation loss
                 loss_log = f'[{iteration+1}/{opt.num_iter}] Train loss: {loss_avg.val():0.5f}, Valid loss: {valid_loss:0.5f}, Elapsed_time: {elapsed_time:0.5f}'
@@ -222,6 +265,10 @@ def train(opt):
 
         if (iteration + 1) == opt.num_iter:
             print('end the training')
+            #added-sumit--------
+            if opt.log_wandb: 
+                wandb.finish()
+            #added-sumit--------
             sys.exit()
         iteration += 1
 
@@ -245,10 +292,11 @@ if __name__ == '__main__':
     parser.add_argument('--eps', type=float, default=1e-8, help='eps for Adadelta. default=1e-8')
     parser.add_argument('--grad_clip', type=float, default=5, help='gradient clipping value. default=5')
     parser.add_argument('--baiduCTC', action='store_true', help='for data_filtering_off mode')
+    parser.add_argument('--log_wandb', action='store_true', help='whether to use wandb for logging')
     """ Data processing """
-    parser.add_argument('--select_data', type=str, default='MJ-ST',
+    parser.add_argument('--select_data', type=str, default='train',#MJ-ST
                         help='select training data (default is MJ-ST, which means MJ and ST used as training data)')
-    parser.add_argument('--batch_ratio', type=str, default='0.5-0.5',
+    parser.add_argument('--batch_ratio', type=str, default='1',
                         help='assign ratio for each selected data in the batch')
     parser.add_argument('--total_data_usage_ratio', type=str, default='1.0',
                         help='total data usage ratio, this ratio is multiplied to total number of data.')
@@ -257,10 +305,12 @@ if __name__ == '__main__':
     parser.add_argument('--imgW', type=int, default=100, help='the width of the input image')
     parser.add_argument('--rgb', action='store_true', help='use rgb input')
     parser.add_argument('--character', type=str,
-                        default='0123456789abcdefghijklmnopqrstuvwxyz', help='character label')
+                        default='0123456789.', help='character label')
     parser.add_argument('--sensitive', action='store_true', help='for sensitive character mode')
     parser.add_argument('--PAD', action='store_true', help='whether to keep ratio then pad for image resize')
     parser.add_argument('--data_filtering_off', action='store_true', help='for data_filtering_off mode')
+    parser.add_argument('--augment', action='store_true', help='whether to augment the images')
+    
     """ Model Architecture """
     parser.add_argument('--Transformation', type=str, required=True, help='Transformation stage. None|TPS')
     parser.add_argument('--FeatureExtraction', type=str, required=True,
@@ -304,7 +354,7 @@ if __name__ == '__main__':
         print('if you stuck too long time with multi-GPU setting, try to set --workers 0')
         # check multi-GPU issue https://github.com/clovaai/deep-text-recognition-benchmark/issues/1
         opt.workers = opt.workers * opt.num_gpu
-        opt.batch_size = opt.batch_size * opt.num_gpu
+        opt.batch_size = int(opt.batch_size) * opt.num_gpu
 
         """ previous version
         print('To equlize batch stats to 1-GPU setting, the batch_size is multiplied with num_gpu and multiplied batch_size is ', opt.batch_size)

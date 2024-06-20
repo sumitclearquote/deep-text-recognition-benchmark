@@ -13,10 +13,11 @@ from torch.utils.data import Dataset, ConcatDataset, Subset
 from torch._utils import _accumulate
 import torchvision.transforms as transforms
 
+import albumentations as A
 
 class Batch_Balanced_Dataset(object):
 
-    def __init__(self, opt):
+    def __init__(self, opt,  albu_transform = None):
         """
         Modulate the data ratio in the batch.
         For example, when select_data is "MJ-ST" and batch_ratio is "0.5-0.5",
@@ -39,7 +40,7 @@ class Batch_Balanced_Dataset(object):
             _batch_size = max(round(opt.batch_size * float(batch_ratio_d)), 1)
             print(dashed_line)
             log.write(dashed_line + '\n')
-            _dataset, _dataset_log = hierarchical_dataset(root=opt.train_data, opt=opt, select_data=[selected_d])
+            _dataset, _dataset_log = hierarchical_dataset(root=opt.train_data, opt=opt, select_data=[selected_d], albu_transform=albu_transform)
             total_number_dataset = len(_dataset)
             log.write(_dataset_log)
 
@@ -100,7 +101,7 @@ class Batch_Balanced_Dataset(object):
         return balanced_batch_images, balanced_batch_texts
 
 
-def hierarchical_dataset(root, opt, select_data='/'):
+def hierarchical_dataset(root, opt, select_data='/', albu_transform = None):
     """ select_data='/' contains all sub-directory of root directory """
     dataset_list = []
     dataset_log = f'dataset_root:    {root}\t dataset: {select_data[0]}'
@@ -115,7 +116,7 @@ def hierarchical_dataset(root, opt, select_data='/'):
                     break
 
             if select_flag:
-                dataset = LmdbDataset(dirpath, opt)
+                dataset = LmdbDataset(dirpath, opt, albu_transform = albu_transform)
                 sub_dataset_log = f'sub-directory:\t/{os.path.relpath(dirpath, root)}\t num samples: {len(dataset)}'
                 print(sub_dataset_log)
                 dataset_log += f'{sub_dataset_log}\n'
@@ -128,11 +129,13 @@ def hierarchical_dataset(root, opt, select_data='/'):
 
 class LmdbDataset(Dataset):
 
-    def __init__(self, root, opt):
+    def __init__(self, root, opt, albu_transform = None):
 
         self.root = root
         self.opt = opt
         self.env = lmdb.open(root, max_readers=32, readonly=True, lock=False, readahead=False, meminit=False)
+        self.albu_transform = albu_transform
+        
         if not self.env:
             print('cannot create lmdb from %s' % (root))
             sys.exit(0)
@@ -168,7 +171,7 @@ class LmdbDataset(Dataset):
                     # By default, images containing characters which are not in opt.character are filtered.
                     # You can add [UNK] token to `opt.character` in utils.py instead of this filtering.
                     out_of_char = f'[^{self.opt.character}]'
-                    if re.search(out_of_char, label.lower()):
+                    if re.search(out_of_char, label): #.lower()): #removed .lower() -- sumit
                         continue
 
                     self.filtered_index_list.append(index)
@@ -196,6 +199,14 @@ class LmdbDataset(Dataset):
                     img = Image.open(buf).convert('RGB')  # for color image
                 else:
                     img = Image.open(buf).convert('L')
+                    
+                    
+                #apply augmentation here 
+                if self.albu_transform:
+                    
+                    img = self.albu_transform(image=np.array(img))["image"]
+                    
+                    img = Image.fromarray(np.uint8(img))
 
             except IOError:
                 print(f'Corrupted image for {index}')
@@ -206,12 +217,14 @@ class LmdbDataset(Dataset):
                     img = Image.new('L', (self.opt.imgW, self.opt.imgH))
                 label = '[dummy_label]'
 
-            if not self.opt.sensitive:
-                label = label.lower()
+            #below two lines commented -sumit
+            #if not self.opt.sensitive:
+            #    label = label.lower()
 
+            #225 and 226 commented - sumit
             # We only train and evaluate on alphanumerics (or pre-defined character set in train.py)
-            out_of_char = f'[^{self.opt.character}]'
-            label = re.sub(out_of_char, '', label)
+            #out_of_char = f'[^{self.opt.character}]'
+            #label = re.sub(out_of_char, '', label)
 
         return (img, label)
 
