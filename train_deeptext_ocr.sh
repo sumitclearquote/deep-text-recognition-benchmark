@@ -9,7 +9,10 @@ python3 train.py \
 --valInterval 58 \
 --augment \
 --log_wandb \
---Transformation TPS --FeatureExtraction ResNet --SequenceModeling BiLSTM --Prediction Attn \
+--Transformation TPS \
+--FeatureExtraction ResNet \
+--SequenceModeling BiLSTM \
+--Prediction Attn \
 --saved_model saved_models/TPS-ResNet-BiLSTM-Attn.pth \
 --batch_max_length 6 \
 --imgH 120 \
