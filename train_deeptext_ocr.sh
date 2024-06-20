@@ -1,11 +1,11 @@
-python3 train.py \
---exp_name lcd_ocr_v1     \
+python train.py \
+--exp_name lcd_ocr_v1 \
 --train_data ./lmdb_lcd_dataset/train \
 --valid_data ./lmdb_lcd_dataset/val \
 --batch_size 32 \
 --select_data "/" \
 --batch_ratio '1' \
---num_iter 3000 \ 
+--num_iter 3000 \
 --valInterval 60 \
 --augment \
 --log_wandb \
