@@ -1,3 +1,7 @@
+# Total images: 1850. 1 epoch = "total_images/batch_size" iterations. 
+# 3000 iterations =  50 epochs.
+# lcd_ocr_v1: 50 epochs, h=120, w=360  
+
 python train.py \
 --exp_name lcd_ocr_v1 \
 --train_data ./lmdb_lcd_dataset/train \
@@ -8,6 +12,7 @@ python train.py \
 --num_iter 3000 \
 --valInterval 60 \
 --augment \
+--log_wandb \
 --Transformation TPS \
 --FeatureExtraction ResNet \
 --SequenceModeling BiLSTM \
