@@ -8,7 +8,6 @@ python train.py \
 --num_iter 3000 \
 --valInterval 60 \
 --augment \
---log_wandb \
 --Transformation TPS \
 --FeatureExtraction ResNet \
 --SequenceModeling BiLSTM \
