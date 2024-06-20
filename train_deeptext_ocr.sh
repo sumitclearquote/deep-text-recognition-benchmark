@@ -6,7 +6,7 @@ python3 train.py \
 --select_data "/" \
 --batch_ratio '1' \
 --num_iter 3000 \ 
---valInterval 58 \
+--valInterval 60 \
 --augment \
 --log_wandb \
 --Transformation TPS \
