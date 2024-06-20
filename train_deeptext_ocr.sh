@@ -12,6 +12,6 @@ python3 train.py \
 --Transformation TPS --FeatureExtraction ResNet --SequenceModeling BiLSTM --Prediction Attn \
 --saved_model saved_models/TPS-ResNet-BiLSTM-Attn.pth \
 --batch_max_length 6 \
---imgH  170\
+--imgH 170 \
 --imgW 400 \
 --FT 
