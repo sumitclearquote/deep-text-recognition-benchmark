@@ -3,7 +3,7 @@
 # lcd_ocr_v1: 50 epochs, h=120, w=360  
 
 python train.py \
---exp_name trial \
+--exp_name trial1 \
 --train_data ./lmdb_lcd_dataset/train \
 --valid_data ./lmdb_lcd_dataset/val \
 --batch_size 32 \
@@ -16,7 +16,7 @@ python train.py \
 --FeatureExtraction VGG \
 --SequenceModeling BiLSTM \
 --Prediction CTC \
---saved_model "None-VGG-BiLSTM-CTC (will be deprecated).pth" \
+--saved_model "saved_models/None-VGG-BiLSTM-CTC (will be deprecated).pth" \
 --batch_max_length 6 \
 --imgH 120 \
 --imgW 360 \
