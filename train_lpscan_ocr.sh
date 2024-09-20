@@ -3,7 +3,7 @@
 # lcd_ocr_v1: 50 epochs, h=120, w=360  
 
 python train.py \
---exp_name lcd_ocr_resnet_trial \
+--exp_name trial \
 --train_data ./lmdb_lcd_dataset/train \
 --valid_data ./lmdb_lcd_dataset/val \
 --batch_size 32 \
@@ -13,10 +13,10 @@ python train.py \
 --valInterval 60 \
 --augment \
 --Transformation None \
---FeatureExtraction ResNet \
---SequenceModeling None \
+--FeatureExtraction VGG \
+--SequenceModeling BiLSTM \
 --Prediction CTC \
---saved_model "saved_models/None-ResNet-None-CTC.pth" \
+--saved_model "None-VGG-BiLSTM-CTC (will be deprecated).pth" \
 --batch_max_length 6 \
 --imgH 120 \
 --imgW 360 \
