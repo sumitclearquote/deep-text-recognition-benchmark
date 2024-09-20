@@ -14,9 +14,9 @@ python train.py \
 --augment \
 --Transformation None \
 --FeatureExtraction VGG \
---SequenceModeling None \
+--SequenceModeling BiLSTM \
 --Prediction CTC \
---saved_model saved_models/None-VGG-None-CTC.pth \
+--saved_model "saved_models/None-VGG-BiLSTM-CTC (will be deprecated).pth" \
 --batch_max_length 6 \
 --imgH 120 \
 --imgW 360 \
