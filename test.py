@@ -153,6 +153,9 @@ def validation(model, criterion, evaluation_loader, converter, opt):
                 pred = re.sub(out_of_alphanumeric_case_insensitve, '', pred)
                 gt = re.sub(out_of_alphanumeric_case_insensitve, '', gt)
 
+            with open(f'result/{opt.exp_name}/predictions.txt', 'a') as f:
+                f.write(f"{gt}\t{pred}\n")
+            
             if pred == gt:
                 n_correct += 1
 
