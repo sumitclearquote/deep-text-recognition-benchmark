@@ -9,10 +9,9 @@ python train.py \
 --batch_size 32 \
 --select_data "/" \
 --batch_ratio '1' \
---num_iter 300 \
+--num_iter 3000 \
 --valInterval 60 \
 --augment \
---log_wandb \
 --Transformation None \
 --FeatureExtraction VGG \
 --SequenceModeling None \
