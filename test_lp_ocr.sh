@@ -5,7 +5,7 @@ python3 test.py \
 --FeatureExtraction VGG \
 --SequenceModeling None \
 --Prediction CTC \
---saved_model results/lcd_ocr_v1/best_accuracy.pth \
+--saved_model results/lp_ocr_v1/best_accuracy.pth \
 --batch_max_length 9 \
 --imgH 100 \
 --imgW 400 \
