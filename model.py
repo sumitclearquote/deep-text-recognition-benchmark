@@ -77,7 +77,7 @@ class Model(nn.Module):
         #visual_feature = self.AdaptiveAvgPool(visual_feature.permute(0, 3, 1, 2))  # [b, c, h, w] -> [b, w, c, h]
         visual_feature = torch.mean(visual_feature.permute(0, 3, 1, 2), axis = 3)
         #visual_feature = visual_feature.permute(0, 3, 1, 2)
-        visual_feature = visual_feature.squeeze(3)
+        #visual_feature = visual_feature.squeeze(3)
 
         """ Sequence modeling stage """
         if self.stages['Seq'] == 'BiLSTM':
