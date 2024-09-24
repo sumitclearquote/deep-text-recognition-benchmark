@@ -3,9 +3,9 @@ python3 test.py \
 --batch_size 8 \
 --Transformation None \
 --FeatureExtraction VGG \
---SequenceModeling None \
+--SequenceModeling BiLSTM \
 --Prediction CTC \
---saved_model results/lp_ocr_v1/best_accuracy.pth \
+--saved_model results/lp_ocr_v2/best_accuracy.pth \
 --batch_max_length 9 \
 --imgH 100 \
 --imgW 400 \
