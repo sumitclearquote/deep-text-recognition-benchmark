@@ -2,13 +2,14 @@
 # 1 epoch = "total_images/batch_size" iterations. 
 # 3000 iterations =  50 epochs.
 # lmdb_lp_dataset -> ciaws/msil-temp/lpscan/datasets/lmdb_lp_dataset
-# lp_ocr_v1:  epochs, h=100, w=400  
+# lp_ocr_v1: VGG-CTC 6000 iters,  h=100, w=400  
+# lp_ocr_v2: VGG-BiLSTM-CTC, 6000iters, h=100, w=400  
 # vocab: '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ-' # Add this in train.py file.
 
 
 python train.py \
 --result_dir results \
---exp_name lp_ocr_v1 \
+--exp_name lp_ocr_v2 \
 --train_data ./lmdb_lp_dataset/train \
 --valid_data ./lmdb_lp_dataset/val \
 --batch_size 32 \
@@ -19,9 +20,9 @@ python train.py \
 --augment \
 --Transformation None \
 --FeatureExtraction VGG \
---SequenceModeling None \
+--SequenceModeling BiLSTM \
 --Prediction CTC \
---saved_model "saved_models/None-VGG-None-CTC.pth" \
+--saved_model "saved_models/None-VGG-BiLSTM-CTC (will be deprecated).pth" \
 --batch_max_length 9 \
 --imgH 100 \
 --imgW 400 \
