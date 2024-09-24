@@ -13,7 +13,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 """
-
+import torch
 import torch.nn as nn
 
 from modules.transformation import TPS_SpatialTransformerNetwork
@@ -74,7 +74,8 @@ class Model(nn.Module):
 
         """ Feature extraction stage """
         visual_feature = self.FeatureExtraction(input)
-        visual_feature = self.AdaptiveAvgPool(visual_feature.permute(0, 3, 1, 2))  # [b, c, h, w] -> [b, w, c, h]
+        #visual_feature = self.AdaptiveAvgPool(visual_feature.permute(0, 3, 1, 2))  # [b, c, h, w] -> [b, w, c, h]
+        visual_feature = torch.mean(visual_feature.permute(0, 3, 1, 2), axis = 3)
         #visual_feature = visual_feature.permute(0, 3, 1, 2)
         visual_feature = visual_feature.squeeze(3)
 
