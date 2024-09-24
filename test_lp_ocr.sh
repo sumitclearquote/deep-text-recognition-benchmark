@@ -1,7 +1,7 @@
 python3 test.py \
 --eval_data ./lmdb_lp_dataset/test \
 --batch_size 8 \
---Transformation None
+--Transformation None \
 --FeatureExtraction VGG \
 --SequenceModeling None \
 --Prediction CTC \
