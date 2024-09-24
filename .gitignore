@@ -207,3 +207,10 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+# custom directories
+
+# train/data.mdb size > 100 mb
+lmdb_lp_dataset 
+

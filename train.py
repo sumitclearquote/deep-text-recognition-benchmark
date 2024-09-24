@@ -56,8 +56,8 @@ def train(opt):
         train_dataset = Batch_Balanced_Dataset(opt, albu_transform=albu_transform)
     else:
          train_dataset = Batch_Balanced_Dataset(opt, albu_transform=None)
-
-    log = open(f'./saved_models/{opt.exp_name}/log_dataset.txt', 'a')
+    
+    log = open(f'{opt.result_dir}/{opt.exp_name}/log_dataset.txt', 'a')
     AlignCollate_valid = AlignCollate(imgH=opt.imgH, imgW=opt.imgW, keep_ratio_with_pad=opt.PAD)
     valid_dataset, valid_dataset_log = hierarchical_dataset(root=opt.valid_data, opt=opt)
     valid_loader = torch.utils.data.DataLoader(
@@ -153,7 +153,7 @@ def train(opt):
 
     """ final options """
     # print(opt)
-    with open(f'./saved_models/{opt.exp_name}/opt.txt', 'a') as opt_file:
+    with open(f'{opt.result_dir}/{opt.exp_name}/opt.txt', 'a') as opt_file:
         opt_log = '------------ Options -------------\n'
         args = vars(opt)
         for k, v in args.items():
@@ -209,7 +209,7 @@ def train(opt):
         if (iteration + 1) % opt.valInterval == 0 or iteration == 0: # To see training progress, we also conduct validation when 'iteration == 0' 
             elapsed_time = time.time() - start_time
             # for log
-            with open(f'./saved_models/{opt.exp_name}/log_train.txt', 'a') as log:
+            with open(f'{opt.result_dir}/{opt.exp_name}/log_train.txt', 'a') as log:
                 model.eval()
                 with torch.no_grad():
                     valid_loss, current_accuracy, current_norm_ED, preds, confidence_score, labels, infer_time, length_of_data = validation(
@@ -234,10 +234,10 @@ def train(opt):
                 # keep best accuracy model (on valid dataset)
                 if current_accuracy > best_accuracy:
                     best_accuracy = current_accuracy
-                    torch.save(model.state_dict(), f'./saved_models/{opt.exp_name}/best_accuracy.pth')
+                    torch.save(model.state_dict(), f'{opt.result_dir}/{opt.exp_name}/best_accuracy.pth')
                 if current_norm_ED > best_norm_ED:
                     best_norm_ED = current_norm_ED
-                    torch.save(model.state_dict(), f'./saved_models/{opt.exp_name}/best_norm_ED.pth')
+                    torch.save(model.state_dict(), f'{opt.result_dir}/{opt.exp_name}/best_norm_ED.pth')
                 best_model_log = f'{"Best_accuracy":17s}: {best_accuracy:0.3f}, {"Best_norm_ED":17s}: {best_norm_ED:0.2f}'
 
                 loss_model_log = f'{loss_log}\n{current_model_log}\n{best_model_log}'
@@ -261,7 +261,7 @@ def train(opt):
         # save model per 1e+5 iter.
         if (iteration + 1) % 1e+5 == 0:
             torch.save(
-                model.state_dict(), f'./saved_models/{opt.exp_name}/iter_{iteration+1}.pth')
+                model.state_dict(), f'{opt.result_dir}/{opt.exp_name}/iter_{iteration+1}.pth')
 
         if (iteration + 1) == opt.num_iter:
             print('end the training')
@@ -276,6 +276,7 @@ def train(opt):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--exp_name', help='Where to store logs and models')
+    parser.add_argument('--result_dir', type=str, default='saved_models', help="The directory where experiment named 'exp_name' is saved")
     parser.add_argument('--train_data', required=True, help='path to training dataset')
     parser.add_argument('--valid_data', required=True, help='path to validation dataset')
     parser.add_argument('--manualSeed', type=int, default=1111, help='for random seed setting')
@@ -305,7 +306,7 @@ if __name__ == '__main__':
     parser.add_argument('--imgW', type=int, default=100, help='the width of the input image')
     parser.add_argument('--rgb', action='store_true', help='use rgb input')
     parser.add_argument('--character', type=str,
-                        default='0123456789.', help='character label')
+                        default='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ-', help='character label')
     parser.add_argument('--sensitive', action='store_true', help='for sensitive character mode')
     parser.add_argument('--PAD', action='store_true', help='whether to keep ratio then pad for image resize')
     parser.add_argument('--data_filtering_off', action='store_true', help='for data_filtering_off mode')
@@ -331,7 +332,7 @@ if __name__ == '__main__':
         opt.exp_name += f'-Seed{opt.manualSeed}'
         # print(opt.exp_name)
 
-    os.makedirs(f'./saved_models/{opt.exp_name}', exist_ok=True)
+    os.makedirs(f'{opt.result_dir}/{opt.exp_name}', exist_ok=True)
 
     """ vocab / character number configuration """
     if opt.sensitive:
