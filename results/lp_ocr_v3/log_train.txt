@@ -1,0 +1,1212 @@
+[1/6000] Train loss: 81.95894, Valid loss: 25.11731, Elapsed_time: 17.40792
+Current_accuracy : 0.000, Current_norm_ED  : 0.00
+Best_accuracy    : 0.000, Best_norm_ED     : 0.00
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+DV23LJU                   |                           | 0.5698	False
+HN73RYR                   |                           | 0.9747	False
+KR70XGF                   |                           | 0.9976	False
+SL22XAF                   |                           | 0.9997	False
+KP70PJX                   |                           | 0.9999	False
+--------------------------------------------------------------------------------
+[60/6000] Train loss: 3.75973, Valid loss: 0.20986, Elapsed_time: 32.19165
+Current_accuracy : 75.822, Current_norm_ED  : 0.95
+Best_accuracy    : 75.822, Best_norm_ED     : 0.95
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+SN20RHA                   | SN2ORHA                   | 0.0441	False
+HN71ONW                   | HN71ONW                   | 0.1264	True
+SL22WSY                   | SL22WSY                   | 0.2549	True
+LD71OAB                   | LD71OAB                   | 0.1606	True
+LD71OVJ                   | LD71OVJ                   | 0.5157	True
+--------------------------------------------------------------------------------
+[120/6000] Train loss: 0.17068, Valid loss: 0.12259, Elapsed_time: 47.14686
+Current_accuracy : 87.041, Current_norm_ED  : 0.97
+Best_accuracy    : 87.041, Best_norm_ED     : 0.97
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LD71RHZ                   | LD71RHZ                   | 0.1960	True
+DS23AEE                   | DS23AEE                   | 0.9606	True
+WM71FXT                   | WM71FXT                   | 0.5665	True
+LG71PZX                   | LG71PZX                   | 0.5304	True
+DV23UYA                   | DV23UYA                   | 0.6379	True
+--------------------------------------------------------------------------------
+[180/6000] Train loss: 0.09755, Valid loss: 0.08594, Elapsed_time: 76.38363
+Current_accuracy : 93.230, Current_norm_ED  : 0.98
+Best_accuracy    : 93.230, Best_norm_ED     : 0.98
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LG72YUB                   | LG72YUB                   | 0.8360	True
+WN23NVU                   | WN23NVU                   | 0.5581	True
+DL23HZT                   | DL23HZT                   | 0.7313	True
+LD71EVN                   | LD71EVN                   | 0.2429	True
+HN73PVP                   | HN73PVP                   | 0.4152	True
+--------------------------------------------------------------------------------
+[240/6000] Train loss: 0.08944, Valid loss: 0.08217, Elapsed_time: 91.53741
+Current_accuracy : 94.391, Current_norm_ED  : 0.99
+Best_accuracy    : 94.391, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+FD23ZWR                   | FD23ZWR                   | 0.8464	True
+HN73PVO                   | HN73PVO                   | 0.2376	True
+DK22ZYJ                   | DK22ZYJ                   | 0.2408	True
+KS70CFA                   | KS70CFA                   | 0.2765	True
+NJ21BCX                   | NJ21BCX                   | 0.8635	True
+--------------------------------------------------------------------------------
+[300/6000] Train loss: 0.04827, Valid loss: 0.13019, Elapsed_time: 106.86166
+Current_accuracy : 93.810, Current_norm_ED  : 0.99
+Best_accuracy    : 94.391, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+HN73PXK                   | HN73PXK                   | 0.7038	True
+DV23LJO                   | DV23LGK                   | 0.3304	False
+CE21TYF                   | CE21TYF                   | 0.4247	True
+LD71RGO                   | LD71RGO                   | 0.6428	True
+LG71XKU                   | LG71XKU                   | 0.8511	True
+--------------------------------------------------------------------------------
+[360/6000] Train loss: 0.05714, Valid loss: 0.07547, Elapsed_time: 121.95130
+Current_accuracy : 95.164, Current_norm_ED  : 0.99
+Best_accuracy    : 95.164, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+DV23LJU                   | DV23LJU                   | 0.3599	True
+LD71OAB                   | LD71OAB                   | 0.8410	True
+SL22WTX                   | SL22WTX                   | 0.8611	True
+SL22WYF                   | SL22WYF                   | 0.3878	True
+BT72YPW                   | BT72YPW                   | 0.2326	True
+--------------------------------------------------------------------------------
+[420/6000] Train loss: 0.05115, Valid loss: 0.07154, Elapsed_time: 137.43781
+Current_accuracy : 94.778, Current_norm_ED  : 0.99
+Best_accuracy    : 95.164, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+CA70LRJ                   | CA70LRJ                   | 0.5355	True
+SD62OLB                   | SD62OLB                   | 0.4423	True
+BP73ZJX                   | BP73ZJX                   | 0.3982	True
+NK19XTL                   | NK19XTL                   | 0.3545	True
+LC21XDW                   | LC21XDW                   | 0.3513	True
+--------------------------------------------------------------------------------
+[480/6000] Train loss: 0.04677, Valid loss: 0.07249, Elapsed_time: 152.70510
+Current_accuracy : 95.358, Current_norm_ED  : 0.99
+Best_accuracy    : 95.358, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+FD23ZWR                   | FD23ZWR                   | 0.4723	True
+GJ72JPY                   | GJ72JPY                   | 0.5736	True
+LD71UPM                   | LD71UPM                   | 0.5029	True
+HN71UUA                   | HN71UUA                   | 0.6477	True
+ND73OLW                   | ND73OLW                   | 0.4118	True
+--------------------------------------------------------------------------------
+[540/6000] Train loss: 0.02877, Valid loss: 0.06893, Elapsed_time: 168.33114
+Current_accuracy : 95.745, Current_norm_ED  : 0.99
+Best_accuracy    : 95.745, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+SL22WYO                   | SL22WYO                   | 0.2370	True
+KX21FTM                   | KX21FTM                   | 0.9615	True
+LC21OTU                   | LC21OTU                   | 0.7678	True
+SP69GFU                   | SP69GFU                   | 0.7995	True
+SL22WZE                   | SL22WZE                   | 0.7169	True
+--------------------------------------------------------------------------------
+[600/6000] Train loss: 0.03369, Valid loss: 0.06491, Elapsed_time: 183.97099
+Current_accuracy : 96.325, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LC21XDW                   | LC21XDW                   | 0.3829	True
+DV21VCC                   | DV21VCC                   | 0.9002	True
+LC71KLP                   | LC71KLP                   | 0.4641	True
+DL22RXR                   | DL22RXR                   | 0.4600	True
+NU70XHJ                   | NU70XHJ                   | 0.7157	True
+--------------------------------------------------------------------------------
+[660/6000] Train loss: 0.02901, Valid loss: 0.06829, Elapsed_time: 199.74650
+Current_accuracy : 95.938, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+KS70CFA                   | KS70CFA                   | 0.7791	True
+MW73CXO                   | MW73CXO                   | 0.7910	True
+FD23ZWR                   | FD23ZWR                   | 0.7848	True
+KS70BUJ                   | KS70BUJ                   | 0.4756	True
+SL22WXJ                   | SL22WXJ                   | 0.6245	True
+--------------------------------------------------------------------------------
+[720/6000] Train loss: 0.02755, Valid loss: 0.06969, Elapsed_time: 215.18407
+Current_accuracy : 94.391, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+HJ69ENL                   | HJ69ENL                   | 0.9695	True
+DV23UYA                   | DV23UYA                   | 0.9964	True
+DN71CPO                   | DN71CPO                   | 0.8286	True
+DL22YKY                   | DL22YKY                   | 0.9273	True
+KS70CFA                   | KS70CFA                   | 0.9025	True
+--------------------------------------------------------------------------------
+[780/6000] Train loss: 0.02582, Valid loss: 0.10989, Elapsed_time: 230.65876
+Current_accuracy : 94.971, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+HJ69ENL                   | HJ69ENL                   | 0.9754	True
+KP71XZD                   | KP71XZD                   | 0.2675	True
+NU20FDK                   | NU20FDK                   | 0.8599	True
+LC21OUA                   | LC21OUA                   | 0.7123	True
+KR70PUX                   | AR70RDX                   | 0.1265	False
+--------------------------------------------------------------------------------
+[840/6000] Train loss: 0.02481, Valid loss: 0.06926, Elapsed_time: 246.21831
+Current_accuracy : 94.971, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+DK69YLJ                   | DK69YLJ                   | 0.3914	True
+KR70XGF                   | KR70XGF                   | 0.3841	True
+LC21OMX                   | LC21OMX                   | 0.3791	True
+MM72VPG                   | MM72VPG                   | 0.9559	True
+LD71DWP                   | LD71DWP                   | 0.8962	True
+--------------------------------------------------------------------------------
+[900/6000] Train loss: 0.01179, Valid loss: 0.07080, Elapsed_time: 261.72849
+Current_accuracy : 95.358, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+MA66UFY                   | MA66UFY                   | 0.5269	True
+NJ21BCX                   | NJ21BCX                   | 0.6362	True
+NU20YLW                   | NU20YLW                   | 0.8952	True
+LC71KLP                   | LC71KLP                   | 0.2457	True
+LD71EVN                   | LD71EVN                   | 0.4230	True
+--------------------------------------------------------------------------------
+[960/6000] Train loss: 0.01598, Valid loss: 0.07092, Elapsed_time: 277.33751
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+CJ23NLO                   | CJ23NLO                   | 0.5976	True
+NU21WVG                   | NU21WVG                   | 0.9908	True
+DN71FMK                   | DN71FMK                   | 0.3305	True
+SP69GFU                   | SP69GFU                   | 0.5510	True
+SL22WSZ                   | SL22WSZ                   | 0.9135	True
+--------------------------------------------------------------------------------
+[1020/6000] Train loss: 0.01790, Valid loss: 0.06417, Elapsed_time: 293.02359
+Current_accuracy : 95.745, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+CA70LRJ                   | CA70LRJ                   | 0.2543	True
+SH71EMX                   | SH71EMX                   | 0.8335	True
+WN23NVU                   | WN23NVU                   | 0.5486	True
+LD71OAB                   | LD71OAB                   | 0.7319	True
+OY19EXG                   | OY19EXG                   | 0.6161	True
+--------------------------------------------------------------------------------
+[1080/6000] Train loss: 0.01047, Valid loss: 0.06932, Elapsed_time: 308.59817
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LD71MHF                   | LD71MHF                   | 0.9305	True
+SL22WYG                   | SL22WYG                   | 0.4590	True
+LF21TVB                   | LF21TVB                   | 0.8483	True
+NK19XTL                   | NK19XTL                   | 0.9681	True
+LD71OWB                   | LD71OWB                   | 0.6095	True
+--------------------------------------------------------------------------------
+[1140/6000] Train loss: 0.01691, Valid loss: 0.06937, Elapsed_time: 324.27776
+Current_accuracy : 95.551, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+FD23ZWR                   | FD23ZWR                   | 0.5252	True
+HN73PVE                   | HN73PVE                   | 0.5732	True
+DL22YLA                   | DL22YLA                   | 0.6238	True
+LT70VUW                   | LT70VUW                   | 0.9662	True
+BK21HHE                   | BK21HHE                   | 0.9968	True
+--------------------------------------------------------------------------------
+[1200/6000] Train loss: 0.01175, Valid loss: 0.07677, Elapsed_time: 339.94294
+Current_accuracy : 95.745, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+HN71ONW                   | HN71ONW                   | 0.9643	True
+SP69GFU                   | SP69GFU                   | 0.5534	True
+BP73ZJX                   | BP73ZJX                   | 0.9382	True
+LC21OPD                   | LC21OPD                   | 0.9618	True
+LG71PZX                   | LG71PZX                   | 0.6272	True
+--------------------------------------------------------------------------------
+[1260/6000] Train loss: 0.00827, Valid loss: 0.07936, Elapsed_time: 355.49655
+Current_accuracy : 95.745, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+EY69XPA                   | EY69XPA                   | 0.6209	True
+SN20RHA                   | SN20RHA                   | 0.8403	True
+DV71JVM                   | DV71JVM                   | 0.8233	True
+LD71JYX                   | LD71JYX                   | 0.6303	True
+LD71RUV                   | LD71RUV                   | 0.9661	True
+--------------------------------------------------------------------------------
+[1320/6000] Train loss: 0.01051, Valid loss: 0.08050, Elapsed_time: 371.07436
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LC21OTU                   | LC21OTU                   | 0.9927	True
+CJ23AZA                   | CJ23AZA                   | 0.8442	True
+SL22WRZ                   | SL22WRZ                   | 0.4155	True
+KX21FTM                   | KX21FTM                   | 0.7985	True
+ND73OLV                   | ND73OLV                   | 0.8696	True
+--------------------------------------------------------------------------------
+[1380/6000] Train loss: 0.01375, Valid loss: 0.07429, Elapsed_time: 386.61730
+Current_accuracy : 95.358, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LD71HSE                   | LD71HSE                   | 0.8139	True
+DV23UYA                   | DV23UYA                   | 0.9347	True
+FH24OKF                   | FH24OKF                   | 0.7279	True
+LC21OSA                   | LC21OSA                   | 0.9918	True
+NU70XHG                   | NU70XHG                   | 0.4985	True
+--------------------------------------------------------------------------------
+[1440/6000] Train loss: 0.00501, Valid loss: 0.07842, Elapsed_time: 402.15508
+Current_accuracy : 95.551, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+WN23NVU                   | WN23NVU                   | 0.9364	True
+MM72VPG                   | MM72VPG                   | 0.7889	True
+LC21OSA                   | LC21OSA                   | 0.9907	True
+DL22YLA                   | DL22YLA                   | 0.9293	True
+DP23GEU                   | DP23GEU                   | 0.9354	True
+--------------------------------------------------------------------------------
+[1500/6000] Train loss: 0.00624, Valid loss: 0.08501, Elapsed_time: 417.79690
+Current_accuracy : 95.745, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+SL67BHE                   | SL67BHE                   | 0.9856	True
+MC22SXL                   | MC22SXL                   | 0.4972	True
+SL22WRT                   | SL22WRT                   | 0.4991	True
+SL22WSZ                   | SL22WSZ                   | 0.9246	True
+WV22VJL                   | WV22VJL                   | 0.7785	True
+--------------------------------------------------------------------------------
+[1560/6000] Train loss: 0.00740, Valid loss: 0.07408, Elapsed_time: 433.34354
+Current_accuracy : 95.358, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+CJ23AZA                   | CJ23AZA                   | 0.5678	True
+LD71OTT                   | LD71OTT                   | 0.6344	True
+LD71JZG                   | LD71JZG                   | 0.8627	True
+LC71OBX                   | LC71OBX                   | 0.8199	True
+SL22WSO                   | SL22WSO                   | 0.9789	True
+--------------------------------------------------------------------------------
+[1620/6000] Train loss: 0.00399, Valid loss: 0.08552, Elapsed_time: 448.93186
+Current_accuracy : 95.551, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+CJ23DNX                   | CJ23DNX                   | 0.6550	True
+DV21VCC                   | DV21VCC                   | 0.6512	True
+CK21NRN                   | CK21NRN                   | 0.5886	True
+LC21YRD                   | LC21YRD                   | 0.5408	True
+FD23ZLN                   | FD23ZLN                   | 0.9447	True
+--------------------------------------------------------------------------------
+[1680/6000] Train loss: 0.00802, Valid loss: 0.08459, Elapsed_time: 464.48402
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+SL22WYJ                   | SL22WYJ                   | 0.7953	True
+SL22WWX                   | SL22WWX                   | 0.7570	True
+NG68ETU                   | NG68ETU                   | 0.9987	True
+KW23BWA                   | KW23BWA                   | 0.6567	True
+SB70ZPP                   | SB70ZPP                   | 0.9832	True
+--------------------------------------------------------------------------------
+[1740/6000] Train loss: 0.00656, Valid loss: 0.08270, Elapsed_time: 480.13501
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+KR23FMP                   | KR23FMP                   | 0.5127	True
+KW23PFK                   | KW23PFK                   | 0.8174	True
+WO23OOU                   | WO23OOU                   | 0.4577	True
+LD71UMO                   | LD71UMO                   | 0.5323	True
+LD71EVN                   | LD71EVN                   | 0.5055	True
+--------------------------------------------------------------------------------
+[1800/6000] Train loss: 0.00500, Valid loss: 0.13178, Elapsed_time: 495.69129
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+SL22WSZ                   | SL22WSZ                   | 0.8350	True
+CF68XMH                   | CF68XM                    | 0.9700	False
+LD71OAB                   | LDAR                      | 0.2357	False
+WR71KFK                   | WR71KFK                   | 0.9968	True
+NV71JVM                   | NV71JVM                   | 0.6988	True
+--------------------------------------------------------------------------------
+[1860/6000] Train loss: 0.01412, Valid loss: 0.08127, Elapsed_time: 511.46694
+Current_accuracy : 95.938, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LC21XDM                   | LC21XDM                   | 0.9140	True
+NY19UOB                   | NY19UOB                   | 0.8285	True
+LD71BGF                   | LD71BGF                   | 0.4775	True
+LC21WTF                   | LC21WTF                   | 0.9152	True
+ND73OLV                   | ND73OLV                   | 0.2651	True
+--------------------------------------------------------------------------------
+[1920/6000] Train loss: 0.00744, Valid loss: 0.07661, Elapsed_time: 527.03672
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LD71HSE                   | LD71HSE                   | 0.9953	True
+SL22WSO                   | SL22WSO                   | 0.4920	True
+MC22SXM                   | MC22SXM                   | 0.4857	True
+WV24YHP                   | WV24YHP                   | 0.4769	True
+NY19UOB                   | NY19UOB                   | 0.3591	True
+--------------------------------------------------------------------------------
+[1980/6000] Train loss: 0.01360, Valid loss: 0.07830, Elapsed_time: 542.84198
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+VO23UVG                   | VO23UVG                   | 0.2851	True
+LD71OWB                   | LD71OWB                   | 0.6756	True
+NY19UOB                   | NY19UOB                   | 0.8380	True
+KR70XGF                   | KR70XGF                   | 0.7349	True
+LC21XDW                   | LC21XDW                   | 0.7823	True
+--------------------------------------------------------------------------------
+[2040/6000] Train loss: 0.00330, Valid loss: 0.08324, Elapsed_time: 558.44043
+Current_accuracy : 95.938, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LC71OAP                   | LC71OAP                   | 0.6243	True
+CA70LRJ                   | CA70LRJ                   | 0.2664	True
+LD71MHF                   | LD71MHF                   | 0.6363	True
+SL67BHE                   | SL67BHE                   | 0.9925	True
+LD71BGF                   | LD71BGF                   | 0.7366	True
+--------------------------------------------------------------------------------
+[2100/6000] Train loss: 0.00673, Valid loss: 0.08637, Elapsed_time: 574.03094
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+BK21HHE                   | BK21HHE                   | 0.9181	True
+CK21USU                   | CK21USU                   | 0.9944	True
+YC73HME                   | YC73HME                   | 0.5222	True
+SL22WRO                   | SL22WRO                   | 0.6572	True
+DV71JVM                   | DV71JVM                   | 0.9171	True
+--------------------------------------------------------------------------------
+[2160/6000] Train loss: 0.00925, Valid loss: 0.07703, Elapsed_time: 589.55171
+Current_accuracy : 95.358, Current_norm_ED  : 0.99
+Best_accuracy    : 96.325, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+DL23KNP                   | DL23KNP                   | 0.9504	True
+ME21CZH                   | ME21CZH                   | 0.6494	True
+LC21XDW                   | LC21XDW                   | 0.6628	True
+LD71YHL                   | LD71YHL                   | 0.5654	True
+SL67BHE                   | SL67BHE                   | 0.9961	True
+--------------------------------------------------------------------------------
+[2220/6000] Train loss: 0.00234, Valid loss: 0.08586, Elapsed_time: 605.10968
+Current_accuracy : 96.518, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+KR70PZU                   | KR70PZU                   | 0.3163	True
+CF22OPX                   | CF22OPX                   | 0.6944	True
+LG71PZX                   | LG71PZX                   | 0.5242	True
+FH24OKF                   | FH24OKF                   | 0.3406	True
+DV21VCC                   | DV21VCC                   | 0.5565	True
+--------------------------------------------------------------------------------
+[2280/6000] Train loss: 0.01117, Valid loss: 0.08780, Elapsed_time: 620.89622
+Current_accuracy : 94.391, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LD71OWB                   | LD71OWB                   | 0.4754	True
+ME21DTX                   | ME21DTX                   | 0.8085	True
+NU20YLW                   | NU20YLW                   | 0.8692	True
+DL22WYJ                   | DL22WYJ                   | 0.9940	True
+KS70CFA                   | KS70CFA                   | 0.7189	True
+--------------------------------------------------------------------------------
+[2340/6000] Train loss: 0.00356, Valid loss: 0.08795, Elapsed_time: 636.44075
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+DS23KOJ                   | DS23KOJ                   | 0.7668	True
+HG72EZA                   | HG7EZA                    | 0.2761	False
+BL22UWW                   | BL22UWW                   | 0.8308	True
+BJ22UXH                   | B22UXH                    | 0.4495	False
+CJ23ELU                   | CJ23ELU                   | 0.9402	True
+--------------------------------------------------------------------------------
+[2400/6000] Train loss: 0.00667, Valid loss: 0.14582, Elapsed_time: 652.02146
+Current_accuracy : 95.745, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+KR70PUX                   | R70RDX                    | 0.1595	False
+CA70LRJ                   | CA70LRJ                   | 0.8825	True
+CJ23BUV                   | CJ23BUV                   | 0.9997	True
+FD23ZLN                   | FD23ZLN                   | 0.5754	True
+LG71PZX                   | LG71PZX                   | 0.6330	True
+--------------------------------------------------------------------------------
+[2460/6000] Train loss: 0.00639, Valid loss: 0.08785, Elapsed_time: 667.58778
+Current_accuracy : 95.745, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+HN73PXJ                   | HN73PXJ                   | 0.9970	True
+LD71BGF                   | LD71BGF                   | 0.9470	True
+BJ22UXH                   | D22UXH                    | 0.3074	False
+ND73OKO                   | ND73OKO                   | 0.9805	True
+BD72FMC                   | BD72FMC                   | 0.9981	True
+--------------------------------------------------------------------------------
+[2520/6000] Train loss: 0.00315, Valid loss: 0.08838, Elapsed_time: 683.22251
+Current_accuracy : 95.938, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+DS23AEE                   | DS23AEE                   | 0.9972	True
+LC21OTU                   | LC21OTU                   | 0.9259	True
+CF22OPX                   | CF22OPX                   | 0.7998	True
+LD71AWA                   | LD71AWA                   | 0.3281	True
+SL22WSY                   | SL22WSY                   | 0.3194	True
+--------------------------------------------------------------------------------
+[2580/6000] Train loss: 0.00442, Valid loss: 0.08602, Elapsed_time: 698.76311
+Current_accuracy : 93.617, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+SL22WXS                   | SL22WXS                   | 0.8288	True
+SL22WYJ                   | SL22WYJ                   | 0.7912	True
+LD71BGF                   | LD71BGF                   | 0.9787	True
+LD71RUV                   | LD71RUV                   | 0.4931	True
+LC21XDW                   | LC21XDW                   | 0.5632	True
+--------------------------------------------------------------------------------
+[2640/6000] Train loss: 0.00257, Valid loss: 0.08620, Elapsed_time: 714.38633
+Current_accuracy : 95.551, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+GD23FYV                   | GD23FYV                   | 0.7217	True
+WN23CFG                   | WN23CFG                   | 0.8644	True
+DK69YLJ                   | DK69YLJ                   | 0.9991	True
+NU69UMD                   | NU69UMD                   | 0.6284	True
+HN73RYR                   | HN73RYR                   | 0.5694	True
+--------------------------------------------------------------------------------
+[2700/6000] Train loss: 0.00771, Valid loss: 0.08520, Elapsed_time: 729.93987
+Current_accuracy : 95.551, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+SL22WRT                   | SL22WRT                   | 0.3419	True
+FD23ZLN                   | FD23ZLN                   | 0.9913	True
+SL22WWU                   | SL22WWU                   | 0.8330	True
+SL22WXJ                   | SL22WXJ                   | 0.9882	True
+LD71RHZ                   | LD71RHZ                   | 0.6284	True
+--------------------------------------------------------------------------------
+[2760/6000] Train loss: 0.00276, Valid loss: 0.08935, Elapsed_time: 745.58745
+Current_accuracy : 95.551, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+SY22VYZ                   | SY22VYZ                   | 0.4015	True
+KR70XGF                   | KR70XGF                   | 0.5890	True
+LC71OBX                   | LC71OBX                   | 0.9341	True
+CA71ZYD                   | CA71ZYD                   | 0.9204	True
+FD23ZLN                   | FD23ZLN                   | 0.4149	True
+--------------------------------------------------------------------------------
+[2820/6000] Train loss: 0.01141, Valid loss: 0.08984, Elapsed_time: 761.11630
+Current_accuracy : 95.745, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+NU70XHG                   | NU70XHG                   | 0.6594	True
+SB70ZPP                   | SB70ZPP                   | 0.9976	True
+KR70PZU                   | KR70PZU                   | 0.3621	True
+LC21XDW                   | LC21XDW                   | 0.8008	True
+WN72KNZ                   | WN72KNZ                   | 0.5988	True
+--------------------------------------------------------------------------------
+[2880/6000] Train loss: 0.00556, Valid loss: 0.08384, Elapsed_time: 776.66574
+Current_accuracy : 96.325, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+DV21VCC                   | DV21VCC                   | 0.6683	True
+DV23LKP                   | DV23LKP                   | 0.7690	True
+SG72OXT                   | SG72OXT                   | 0.7378	True
+ME21CZH                   | ME21CZH                   | 0.6175	True
+NG68ETU                   | NG68ETU                   | 0.9305	True
+--------------------------------------------------------------------------------
+[2940/6000] Train loss: 0.00484, Valid loss: 0.08448, Elapsed_time: 792.32793
+Current_accuracy : 94.584, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LD71JWX                   | LD71JWX                   | 0.5393	True
+SP69GFU                   | SP69GFU                   | 0.7854	True
+LD71OWB                   | LD71OWB                   | 0.4695	True
+DL22YKN                   | DL22YKN                   | 0.4317	True
+BD72FMC                   | BD72FMC                   | 0.9167	True
+--------------------------------------------------------------------------------
+[3000/6000] Train loss: 0.00308, Valid loss: 0.08662, Elapsed_time: 807.89160
+Current_accuracy : 95.745, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+HV71VXU                   | HV71VXU                   | 0.9930	True
+LD71DWP                   | LD71DWP                   | 0.4664	True
+FD23ZLN                   | FD23ZLN                   | 0.9801	True
+NU20FDK                   | NU20FDK                   | 0.9997	True
+LC21OUF                   | LC21OUF                   | 0.9980	True
+--------------------------------------------------------------------------------
+[3060/6000] Train loss: 0.00224, Valid loss: 0.08349, Elapsed_time: 823.49050
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LF21EGW                   | LF21EGW                   | 0.7721	True
+ME21DTF                   | ME21DTF                   | 0.4609	True
+SL22WSO                   | SL22WSO                   | 0.6335	True
+DL23JBU                   | DL23JBU                   | 0.7988	True
+LD71OTT                   | LD71OTT                   | 0.6126	True
+--------------------------------------------------------------------------------
+[3120/6000] Train loss: 0.00565, Valid loss: 0.08821, Elapsed_time: 839.02285
+Current_accuracy : 95.358, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LC21OMX                   | LC21OMX                   | 0.8593	True
+BM19DFA                   | BM19DFA                   | 0.8939	True
+WR71KEJ                   | WR71KEJ                   | 0.6173	True
+WM71FXT                   | WM71FXT                   | 0.9588	True
+MJ18XBP                   | MJ18XBP                   | 0.8257	True
+--------------------------------------------------------------------------------
+[3180/6000] Train loss: 0.00936, Valid loss: 0.08441, Elapsed_time: 854.61172
+Current_accuracy : 95.551, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+MJ18XBP                   | MJ18XBP                   | 0.9888	True
+SG22MWE                   | SG22MWE                   | 0.7203	True
+NV71DHD                   | NV71DHD                   | 0.2292	True
+SL22WTX                   | SL22WTX                   | 0.8074	True
+KR70XGF                   | KR70XGF                   | 0.9322	True
+--------------------------------------------------------------------------------
+[3240/6000] Train loss: 0.00487, Valid loss: 0.08601, Elapsed_time: 870.15978
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LG71NXD                   | LG71NXD                   | 0.9251	True
+DV23LJU                   | DV23LJU                   | 0.9772	True
+KR70PUY                   | KR70PUY                   | 0.8625	True
+LD71DTU                   | LD71DTU                   | 0.3111	True
+LD71YHL                   | LD71YHL                   | 0.8901	True
+--------------------------------------------------------------------------------
+[3300/6000] Train loss: 0.00322, Valid loss: 0.08814, Elapsed_time: 885.81235
+Current_accuracy : 95.551, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+WV22VJL                   | WV22VJL                   | 0.9951	True
+HN73PXH                   | HN73PXH                   | 0.6412	True
+ME21NNM                   | ME21NNM                   | 0.4997	True
+LD71RHZ                   | LD71RHZ                   | 0.6329	True
+WN72KNZ                   | WN72KNZ                   | 0.3922	True
+--------------------------------------------------------------------------------
+[3360/6000] Train loss: 0.00228, Valid loss: 0.08662, Elapsed_time: 901.34279
+Current_accuracy : 95.745, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+CF22OPX                   | CF22OPX                   | 0.4199	True
+MM72UVP                   | MM72UVP                   | 0.6331	True
+SL22WTG                   | SL22WTG                   | 0.9745	True
+KP71XZD                   | KP71XZD                   | 0.3929	True
+SN20RHA                   | SN2ORHA                   | 0.4484	False
+--------------------------------------------------------------------------------
+[3420/6000] Train loss: 0.01299, Valid loss: 0.08561, Elapsed_time: 916.94683
+Current_accuracy : 95.358, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LD71OWB                   | LD71OWB                   | 0.5461	True
+LD71RHZ                   | LD71RHZ                   | 0.5515	True
+ME21CZH                   | ME21CZH                   | 0.4894	True
+BJ22UXH                   | B22UXH                    | 0.8073	False
+EY69XPA                   | EY69XPA                   | 0.9264	True
+--------------------------------------------------------------------------------
+[3480/6000] Train loss: 0.00275, Valid loss: 0.08357, Elapsed_time: 932.53071
+Current_accuracy : 95.938, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+DK69YLM                   | DK69YLM                   | 0.4877	True
+FD23ZWR                   | FD23ZWR                   | 0.7020	True
+SL22WYF                   | SL22WYF                   | 0.9987	True
+KP71XYW                   | KP71XYW                   | 0.4443	True
+SP69GFU                   | SP69GFU                   | 0.8232	True
+--------------------------------------------------------------------------------
+[3540/6000] Train loss: 0.00231, Valid loss: 0.14330, Elapsed_time: 948.15016
+Current_accuracy : 95.745, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LC21OTU                   | LC21OTU                   | 0.3543	True
+NU20YLW                   | NU20YLW                   | 0.8573	True
+KR70PUX                   | R70RDX                    | 0.3439	False
+LD71EVN                   | LD71EVN                   | 0.4332	True
+LD71OTG                   | LD71OTG                   | 0.9649	True
+--------------------------------------------------------------------------------
+[3600/6000] Train loss: 0.00116, Valid loss: 0.09493, Elapsed_time: 963.67107
+Current_accuracy : 95.164, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+NG68ETU                   | NG68ETU                   | 0.9915	True
+LD71OTT                   | LD71OTT                   | 0.8471	True
+LG71OVW                   | LG71OVW                   | 0.8241	True
+HN71UUA                   | HN71UUA                   | 0.8216	True
+CJ23AZA                   | CJ23AZA                   | 0.8937	True
+--------------------------------------------------------------------------------
+[3660/6000] Train loss: 0.00885, Valid loss: 0.08476, Elapsed_time: 979.18939
+Current_accuracy : 95.551, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LD71JYX                   | LD71JYX                   | 0.7751	True
+BL22UWW                   | BL22UWW                   | 0.5997	True
+DL23BWP                   | DL23BWP                   | 0.6243	True
+BP73ZJX                   | BP73ZJX                   | 0.3249	True
+LD71YHL                   | LD71YHL                   | 0.6278	True
+--------------------------------------------------------------------------------
+[3720/6000] Train loss: 0.00400, Valid loss: 0.08219, Elapsed_time: 994.79124
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LC21OPD                   | LC21OPD                   | 0.9668	True
+SP69GFU                   | SP69GFU                   | 0.4711	True
+LC21OLX                   | LC21OLX                   | 0.7485	True
+LD71RUV                   | LD71RUV                   | 0.7148	True
+LD71MDF                   | LD71MDF                   | 0.9908	True
+--------------------------------------------------------------------------------
+[3780/6000] Train loss: 0.00368, Valid loss: 0.08848, Elapsed_time: 1010.34223
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+BT72YPW                   | BT72YPW                   | 0.6730	True
+HJ69HFL                   | HJ69HFL                   | 0.4899	True
+LC21OUF                   | LC21OUF                   | 0.8177	True
+SL22WYJ                   | SL22WYJ                   | 0.6039	True
+MK73GVV                   | MK73GVV                   | 0.7260	True
+--------------------------------------------------------------------------------
+[3840/6000] Train loss: 0.00066, Valid loss: 0.09218, Elapsed_time: 1026.00730
+Current_accuracy : 95.745, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LG71NXD                   | LG71NXD                   | 0.9212	True
+MK73GVV                   | MK73GVV                   | 0.4722	True
+LC71OBX                   | LC71OBX                   | 0.6344	True
+KM71GFZ                   | KM71GFZ                   | 0.4557	True
+LD21WUB                   | LD21WUB                   | 0.6199	True
+--------------------------------------------------------------------------------
+[3900/6000] Train loss: 0.00867, Valid loss: 0.08594, Elapsed_time: 1041.55126
+Current_accuracy : 95.358, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+KW23BWA                   | KW23BWA                   | 0.9984	True
+LC21OLX                   | LC21OLX                   | 0.7276	True
+HN73PVP                   | HN73PVP                   | 0.3814	True
+DS23AEE                   | DS23AEE                   | 0.9769	True
+LD71UVR                   | LD71UVR                   | 0.3297	True
+--------------------------------------------------------------------------------
+[3960/6000] Train loss: 0.00582, Valid loss: 0.08229, Elapsed_time: 1057.11489
+Current_accuracy : 95.938, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+DS22YBN                   | DS22YBN                   | 0.8753	True
+LC21OMX                   | LC21OMX                   | 0.6447	True
+WR71KEJ                   | WR71KEJ                   | 0.9361	True
+MF20EZK                   | MF20EZK                   | 0.9411	True
+SC73GCF                   | SC73GCF                   | 0.9896	True
+--------------------------------------------------------------------------------
+[4020/6000] Train loss: 0.00152, Valid loss: 0.09174, Elapsed_time: 1072.68328
+Current_accuracy : 95.745, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+NV71DHD                   | NV71DHD                   | 0.4773	True
+WR71KEJ                   | WR71KEJ                   | 0.9483	True
+MC22SXM                   | MC22SXM                   | 0.6437	True
+SP20GKU                   | SP20GKU                   | 0.9624	True
+KR70OWP                   | KR70OWP                   | 0.5662	True
+--------------------------------------------------------------------------------
+[4080/6000] Train loss: 0.00183, Valid loss: 0.08920, Elapsed_time: 1088.27901
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+SL22WXJ                   | SL22WXJ                   | 0.6665	True
+LD71AWA                   | LD71AWA                   | 0.3028	True
+LD71OTT                   | LD71OTT                   | 0.9581	True
+LC21OTU                   | LC21OTU                   | 0.5681	True
+BJ22UXH                   | BJ22UXH                   | 0.9689	True
+--------------------------------------------------------------------------------
+[4140/6000] Train loss: 0.00369, Valid loss: 0.09415, Elapsed_time: 1103.81617
+Current_accuracy : 95.745, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LD71OTT                   | LD71OTT                   | 0.5794	True
+LD71BGF                   | LD71BGF                   | 0.8991	True
+DL22EJU                   | DL22EJU                   | 0.8018	True
+HV71LUL                   | HV71LUL                   | 0.7510	True
+LF21EGW                   | LF21EGW                   | 0.6748	True
+--------------------------------------------------------------------------------
+[4200/6000] Train loss: 0.00296, Valid loss: 0.09666, Elapsed_time: 1119.41494
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+WM71FXT                   | WM71FXT                   | 0.7782	True
+WO23OME                   | WO23OME                   | 0.9411	True
+KS70CFA                   | KS7OCFA                   | 0.8655	False
+LC21YRD                   | LC21YRD                   | 0.7578	True
+SN20RHA                   | SN20RHA                   | 0.5773	True
+--------------------------------------------------------------------------------
+[4260/6000] Train loss: 0.00057, Valid loss: 0.08875, Elapsed_time: 1134.96356
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LD21WUB                   | LD21WUB                   | 0.5204	True
+NK19XSL                   | NK19XSL                   | 0.2697	True
+MC22SXL                   | MC22SXL                   | 0.5899	True
+LD71UPM                   | LD71UPM                   | 0.9772	True
+NU21WVG                   | NU21WVG                   | 0.9957	True
+--------------------------------------------------------------------------------
+[4320/6000] Train loss: 0.00443, Valid loss: 0.08509, Elapsed_time: 1150.52289
+Current_accuracy : 95.938, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+NV71DHD                   | NV71DHD                   | 0.9469	True
+KS70CFA                   | KS70CFA                   | 0.9570	True
+BM19DFA                   | BM19DFA                   | 0.6910	True
+SL22WRT                   | SL22WRT                   | 0.3090	True
+LD71DVR                   | LD71DVR                   | 0.4245	True
+--------------------------------------------------------------------------------
+[4380/6000] Train loss: 0.00181, Valid loss: 0.08493, Elapsed_time: 1166.10872
+Current_accuracy : 95.938, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+DV23LKA                   | DV23LKA                   | 0.7891	True
+BV20YGX                   | BV20YGX                   | 0.9814	True
+LD71AWA                   | LD71AWA                   | 0.3953	True
+WN72KNZ                   | WN72KNZ                   | 0.6474	True
+SL22XAF                   | SL22XAF                   | 0.4453	True
+--------------------------------------------------------------------------------
+[4440/6000] Train loss: 0.00389, Valid loss: 0.11503, Elapsed_time: 1181.67116
+Current_accuracy : 95.938, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+KS70BUJ                   | KS70BUJ                   | 0.9285	True
+FD23ZLN                   | FD23ZLN                   | 0.3822	True
+DL22RXR                   | DL22RXR                   | 0.8860	True
+SL22WWU                   | SL22WWU                   | 0.7067	True
+LG710LX                   | LG71OLX                   | 0.4073	False
+--------------------------------------------------------------------------------
+[4500/6000] Train loss: 0.00169, Valid loss: 0.09154, Elapsed_time: 1197.25005
+Current_accuracy : 96.518, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LC21XDW                   | LC21XDW                   | 0.9851	True
+CK21USU                   | CK21USU                   | 0.5093	True
+BD72FMC                   | BD72FMC                   | 0.9930	True
+BD72FMC                   | BD72FMC                   | 0.8187	True
+LD71OWB                   | LD71OWB                   | 0.5965	True
+--------------------------------------------------------------------------------
+[4560/6000] Train loss: 0.00386, Valid loss: 0.08816, Elapsed_time: 1212.80454
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LG71OWO                   | LF71OWO                   | 0.2742	False
+LD71JYH                   | LD71JYH                   | 0.6987	True
+LD71EVN                   | LD71EVN                   | 0.1704	True
+LD71RHZ                   | LD71RHZ                   | 0.2005	True
+CJ23NLO                   | CJ23NLO                   | 0.9683	True
+--------------------------------------------------------------------------------
+[4620/6000] Train loss: 0.00744, Valid loss: 0.08649, Elapsed_time: 1228.40844
+Current_accuracy : 96.325, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LC21XDW                   | LC21XDW                   | 0.7557	True
+BK21HHE                   | BK21HHE                   | 0.8498	True
+LD21WUB                   | LD21WUB                   | 0.9327	True
+DL23BWP                   | DL23BWP                   | 0.9633	True
+SA72MWC                   | SA72MWC                   | 0.6254	True
+--------------------------------------------------------------------------------
+[4680/6000] Train loss: 0.00130, Valid loss: 0.09433, Elapsed_time: 1243.94011
+Current_accuracy : 96.518, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+SP69GFU                   | SP69GFU                   | 0.8947	True
+LC21OLX                   | LC21OLX                   | 0.6764	True
+VE73JVL                   | VE73JVL                   | 0.7761	True
+LF21TVB                   | LF21TVB                   | 0.4585	True
+SL22WRG                   | SL22WRG                   | 0.9390	True
+--------------------------------------------------------------------------------
+[4740/6000] Train loss: 0.00422, Valid loss: 0.12603, Elapsed_time: 1259.55362
+Current_accuracy : 95.745, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LD71NXC                   | LD71NXC                   | 0.9557	True
+SL22WSW                   | SL22WSW                   | 0.4453	True
+DL22YKY                   | DL22YKY                   | 0.9101	True
+CF68XMH                   | CF68XM                    | 0.9377	False
+LD71UVR                   | LD71UVR                   | 0.9458	True
+--------------------------------------------------------------------------------
+[4800/6000] Train loss: 0.00148, Valid loss: 0.09250, Elapsed_time: 1275.13113
+Current_accuracy : 96.518, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+CF22ZST                   | CF22ZST                   | 0.7887	True
+MM72VTW                   | MM72VTW                   | 0.9691	True
+SL22WYY                   | SL22WYY                   | 0.2779	True
+WN72KEK                   | WN72KEK                   | 0.6806	True
+DL23JBU                   | DL23JBU                   | 0.9990	True
+--------------------------------------------------------------------------------
+[4860/6000] Train loss: 0.00701, Valid loss: 0.10979, Elapsed_time: 1290.84276
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.518, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LD71ODR                   | LD71OTR                   | 0.9112	False
+LD71RHZ                   | LD71RHZ                   | 0.4435	True
+LC21XDM                   | LC21XDM                   | 0.5434	True
+LD71RUV                   | LD71RUV                   | 0.8948	True
+LC21XDW                   | LC21XDW                   | 0.7217	True
+--------------------------------------------------------------------------------
+[4920/6000] Train loss: 0.00223, Valid loss: 0.09084, Elapsed_time: 1306.34989
+Current_accuracy : 96.712, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+FH24OJV                   | FH24OJV                   | 0.6899	True
+NJ21BCX                   | NJ21BCX                   | 0.9904	True
+CK21NRL                   | CK21NRL                   | 0.4084	True
+LD71RUV                   | LD71RUV                   | 0.4715	True
+CA70LRJ                   | CA70LRJ                   | 0.6835	True
+--------------------------------------------------------------------------------
+[4980/6000] Train loss: 0.01268, Valid loss: 0.08513, Elapsed_time: 1322.07152
+Current_accuracy : 96.325, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LD71DWP                   | LD71DWP                   | 0.2550	True
+SB70ZPP                   | SB70ZPP                   | 0.8802	True
+LC21OUF                   | LC21OUF                   | 0.9993	True
+DL23JBU                   | DL23JBU                   | 0.9570	True
+LD71NWU                   | LD71NWU                   | 0.6841	True
+--------------------------------------------------------------------------------
+[5040/6000] Train loss: 0.00111, Valid loss: 0.09158, Elapsed_time: 1337.62966
+Current_accuracy : 96.518, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LD71YHL                   | LD71YHL                   | 0.4284	True
+SG22MWE                   | SG22MWE                   | 0.8011	True
+KP70PJX                   | KP70PJX                   | 0.6609	True
+NU22KXP                   | NU22KXP                   | 0.5992	True
+LD71EVN                   | LD71EVN                   | 0.5202	True
+--------------------------------------------------------------------------------
+[5100/6000] Train loss: 0.00332, Valid loss: 0.09492, Elapsed_time: 1353.16193
+Current_accuracy : 96.518, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+SL22WSZ                   | SL22WSZ                   | 0.9894	True
+LD71RGO                   | LD71RGO                   | 0.8519	True
+MA66UFY                   | MA66UFY                   | 0.9892	True
+LC21WTF                   | LC21WTF                   | 0.8293	True
+SL22WXJ                   | SL22WXJ                   | 0.9917	True
+--------------------------------------------------------------------------------
+[5160/6000] Train loss: 0.00243, Valid loss: 0.08630, Elapsed_time: 1368.77538
+Current_accuracy : 96.712, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+DL22YLA                   | DL22YLA                   | 0.9790	True
+LD71RHZ                   | LD71RHZ                   | 0.6926	True
+SO23KKJ                   | SO23KKJ                   | 0.8814	True
+SL22WYG                   | SL22WYG                   | 0.2829	True
+LC71KLD                   | LC71KLD                   | 0.7540	True
+--------------------------------------------------------------------------------
+[5220/6000] Train loss: 0.00176, Valid loss: 0.09006, Elapsed_time: 1384.37667
+Current_accuracy : 96.325, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+SL22WRT                   | SL22WRT                   | 0.5517	True
+SO23KKJ                   | SO23KKJ                   | 0.7005	True
+SL22WUX                   | SL22WUX                   | 0.3537	True
+SL22XAY                   | SL22XAY                   | 0.4289	True
+KS70CFA                   | KS70CFA                   | 0.9948	True
+--------------------------------------------------------------------------------
+[5280/6000] Train loss: 0.00057, Valid loss: 0.09413, Elapsed_time: 1399.98361
+Current_accuracy : 96.518, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+SL22WUT                   | SL22WUT                   | 0.4875	True
+LD71RHZ                   | LD71RHZ                   | 0.8097	True
+LG71XKU                   | LG71XKU                   | 0.6114	True
+DL22RXR                   | DL22RXR                   | 0.6109	True
+FH24OJW                   | FH24OJW                   | 0.5272	True
+--------------------------------------------------------------------------------
+[5340/6000] Train loss: 0.00293, Valid loss: 0.09688, Elapsed_time: 1415.51237
+Current_accuracy : 96.518, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+KR70OWP                   | KR70OWP                   | 0.9895	True
+LD71OTG                   | LD71OTG                   | 0.9591	True
+FD23ZWR                   | FD23ZWR                   | 0.9781	True
+DK69YLM                   | DK69YLM                   | 0.3990	True
+LD71JYH                   | LD71JYH                   | 0.7235	True
+--------------------------------------------------------------------------------
+[5400/6000] Train loss: 0.00577, Valid loss: 0.09372, Elapsed_time: 1431.13232
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+HN73PVE                   | HN73PVE                   | 0.4249	True
+SN70OXD                   | SN70OXD                   | 0.8357	True
+SL22WRZ                   | SL22WPZ                   | 0.6322	False
+LG71OWO                   | LF71OWO                   | 0.4756	False
+DV23LKP                   | DV23LKP                   | 0.3336	True
+--------------------------------------------------------------------------------
+[5460/6000] Train loss: 0.00197, Valid loss: 0.12273, Elapsed_time: 1446.68021
+Current_accuracy : 96.325, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+NV70HVG                   | NV70HVG                   | 0.9793	True
+LD71OVJ                   | LD71OVJ                   | 0.9714	True
+LG71OWE                   | LG71OWE                   | 0.9846	True
+NG68ETU                   | NG68ETU                   | 0.8685	True
+LD71ODR                   | LD71OTR                   | 0.5122	False
+--------------------------------------------------------------------------------
+[5520/6000] Train loss: 0.00060, Valid loss: 0.14107, Elapsed_time: 1462.33762
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+LD71YHL                   | LD71YHL                   | 0.2279	True
+CF68XMH                   | CF68XM                    | 0.7589	False
+LD71RHZ                   | LD71RHZ                   | 0.4076	True
+HN73RYR                   | HN73RYR                   | 0.8044	True
+LD71OTG                   | LD71OTG                   | 0.9475	True
+--------------------------------------------------------------------------------
+[5580/6000] Train loss: 0.00231, Valid loss: 0.09885, Elapsed_time: 1477.88996
+Current_accuracy : 95.938, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+CJ23BUV                   | CJ23BUV                   | 0.4462	True
+KP71XYW                   | KP71XYW                   | 0.5378	True
+SP20GGY                   | SP20GGY                   | 0.7792	True
+DL23BWP                   | DL23BWP                   | 0.5070	True
+HV71VXU                   | HV71VXU                   | 0.9207	True
+--------------------------------------------------------------------------------
+[5640/6000] Train loss: 0.00297, Valid loss: 0.08991, Elapsed_time: 1493.48013
+Current_accuracy : 95.938, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+DP23GEU                   | DP23GEU                   | 0.5697	True
+CN19KHM                   | CN19KHM                   | 0.9323	True
+CE21ZPG                   | CE21ZPG                   | 0.4284	True
+LD71OTT                   | LD71OTT                   | 0.9786	True
+LG71PZX                   | LG71PZX                   | 0.9331	True
+--------------------------------------------------------------------------------
+[5700/6000] Train loss: 0.00284, Valid loss: 0.10967, Elapsed_time: 1509.00615
+Current_accuracy : 96.132, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+DK22ZYJ                   | DK22ZJ                    | 0.5166	False
+LC71KNP                   | LC71KNP                   | 0.6296	True
+FD23ZWR                   | FD23ZWR                   | 0.8657	True
+SL22WTX                   | SL22WTX                   | 0.8016	True
+DK69YLM                   | DK69YLM                   | 0.7384	True
+--------------------------------------------------------------------------------
+[5760/6000] Train loss: 0.00383, Valid loss: 0.09981, Elapsed_time: 1524.55094
+Current_accuracy : 95.745, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+BD72FMC                   | BD72FMC                   | 0.5083	True
+LD71RHZ                   | LD71RHZ                   | 0.6581	True
+LD71YHL                   | LD71YHL                   | 0.8059	True
+WV22VJL                   | WV22VJL                   | 0.5656	True
+SL22WTP                   | SL22WTP                   | 0.8465	True
+--------------------------------------------------------------------------------
+[5820/6000] Train loss: 0.00329, Valid loss: 0.09276, Elapsed_time: 1540.08698
+Current_accuracy : 95.938, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+CJ23ELU                   | CJ23ELU                   | 0.8296	True
+DL22RXR                   | DL22RXR                   | 0.9912	True
+LC21OTU                   | LC21OTU                   | 0.9970	True
+LC21OPD                   | LC21OPD                   | 0.7293	True
+GJ72JPY                   | GJ72JPY                   | 0.9605	True
+--------------------------------------------------------------------------------
+[5880/6000] Train loss: 0.00322, Valid loss: 0.09870, Elapsed_time: 1555.60123
+Current_accuracy : 95.938, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+ND73OKO                   | ND73OKO                   | 0.4855	True
+DV23LKP                   | DV23LKP                   | 0.9754	True
+LC21OMX                   | LC21OMX                   | 0.9404	True
+LD71AWA                   | LD71AWA                   | 0.4977	True
+LC21OVF                   | LC21OVF                   | 0.9156	True
+--------------------------------------------------------------------------------
+[5940/6000] Train loss: 0.00372, Valid loss: 0.09529, Elapsed_time: 1571.16433
+Current_accuracy : 96.325, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+SD62OLB                   | SD62OLB                   | 0.9993	True
+LC21YRD                   | LC21YRD                   | 0.9982	True
+KP71XYW                   | KP71XYW                   | 0.7751	True
+LC21XDM                   | LC21XDM                   | 0.9985	True
+CF22ZST                   | CF22ZST                   | 0.9256	True
+--------------------------------------------------------------------------------
+[6000/6000] Train loss: 0.00179, Valid loss: 0.09661, Elapsed_time: 1586.66399
+Current_accuracy : 96.518, Current_norm_ED  : 0.99
+Best_accuracy    : 96.712, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+DP23GEK                   | DP23GEK                   | 0.9712	True
+LD71RUV                   | LD71RUV                   | 0.2426	True
+DL23KNP                   | DL23KNP                   | 0.5904	True
+HJ69HFL                   | HJ69HFL                   | 0.7296	True
+SL22WYG                   | SL22WYG                   | 0.5426	True
+--------------------------------------------------------------------------------
