@@ -13,7 +13,7 @@ python train.py \
 --result_dir results \
 --exp_name lp_ocr_v3 \
 --train_data ./datasets/lmdb_lp_dataset_uk/train \
---valid_data ./datasets/lmdb_lp_dataset/val \
+--valid_data ./datasets/lmdb_lp_dataset_uk/val \
 --batch_size 32 \
 --select_data "/" \
 --batch_ratio '1' \

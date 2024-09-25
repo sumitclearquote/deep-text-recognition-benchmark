@@ -210,9 +210,11 @@ $RECYCLE.BIN/
 
 
 # custom directories =====================
+# scripts
+model_helper.py
 
 # train/data.mdb size > 100 mb
-lmdb_lp_dataset 
+**/**/lmdb_lp_dataset 
 
 # uk test dataset
 uk_0
