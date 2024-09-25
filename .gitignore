@@ -209,8 +209,18 @@ $RECYCLE.BIN/
 *.lnk
 
 
-# custom directories
+# custom directories =====================
 
 # train/data.mdb size > 100 mb
 lmdb_lp_dataset 
 
+# uk test dataset
+uk_0
+
+# represent data for quantization
+represent_data
+
+# converted models
+**/**/*.tflite
+**/**/*.pb
+**/**/*.onnx

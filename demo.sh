@@ -1,0 +1,13 @@
+python3 demo.py \
+--image_folder ./uk_0 \
+--batch_size 1 \
+--Transformation None \
+--FeatureExtraction VGG \
+--SequenceModeling None \
+--Prediction CTC \
+--saved_model results/lp_ocr_v1/best_accuracy.pth \
+--batch_max_length 9 \
+--imgH 100 \
+--imgW 400 \
+--character '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ-' \
+--workers 0
