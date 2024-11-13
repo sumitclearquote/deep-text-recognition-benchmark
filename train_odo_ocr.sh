@@ -12,8 +12,8 @@
 python train.py \
 --result_dir results/odo_ocr \
 --exp_name odo_ocr_vgg_ctc_v1 \
---train_data ./lmdb_odo_ocr_dataset/train \
---valid_data ./lmdb_odo_ocr_dataset/val \
+--train_data ./datasets/lmdb_odo_ocr_dataset/train \
+--valid_data ./datasets/lmdb_odo_ocr_dataset/val \
 --batch_size 256 \
 --select_data "/" \
 --batch_ratio '1' \
