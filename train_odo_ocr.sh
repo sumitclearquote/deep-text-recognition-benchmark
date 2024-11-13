@@ -25,7 +25,7 @@ python train.py \
 --FeatureExtraction VGG \
 --SequenceModeling None \
 --Prediction CTC \
---saved_model "saved_models/None-VGG-None-CTC.pth"h \
+--saved_model "saved_models/None-VGG-None-CTC.pth" \
 --batch_max_length 9 \
 --imgH 40 \
 --imgW 100 \
