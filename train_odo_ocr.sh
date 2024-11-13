@@ -9,9 +9,8 @@
 #       num_iter: 3000 (7768/256 = 30. 1 epoch = 30 iters => 100 epochs = 3000 iters)
 
 
-
 python train.py \
---result_dir = results/odo_ocr \
+--result_dir results/odo_ocr \
 --exp_name odo_ocr_vgg_ctc_v1 \
 --train_data ./lmdb_odo_ocr_dataset/train \
 --valid_data ./lmdb_odo_ocr_dataset/val \
